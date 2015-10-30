@@ -1,6 +1,6 @@
 {
-	"name":"FormPostName"   -- Name of the form post value/name of the report param 
-	"display":"Display Title Here",
+	"name":"FormPostName",   -- Name of the form post value/name of the report param 
+	"label":"Display Title Here",
 	"required":true,   -- true/false to add required property 
 	"selected":"value",  -- value of the default selected option
 	"options":[

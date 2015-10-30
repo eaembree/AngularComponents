@@ -1,0 +1,7 @@
+{
+	"name":"FormPostName",   -- Name of the form post value/name of the report param
+	"label":"Label", 
+	"display":"Display Title Here",
+	"value":"Value To Return", -- Value returned when checked
+	"checked":true   -- initial checked state 
+}

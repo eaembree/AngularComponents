@@ -1,0 +1,17 @@
+{
+	"label":"Label",
+	"options": [
+		{
+			"name":"FormPostName",   -- Name of the form post value/name of the report param
+			"display":"Display Title Here",
+			"value":"Value To Return", -- Value returned when checked
+			"checked":true   -- initial checked state
+		},
+		{
+			"name":"FormPostName",   -- Name of the form post value/name of the report param
+			"display":"Display Title Here",
+			"value":"Value To Return", -- Value returned when checked
+			"checked":true   -- initial checked state
+		}
+	]
+}

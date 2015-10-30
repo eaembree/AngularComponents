@@ -1,0 +1,8 @@
+<div class="form-group">
+	<label class="control-label">{{data.label}}</label>
+	<div class="checkbox" ng-repeat="o in data.options">
+		<label>
+			<input type="checkbox" name="{{o.name}}"" value="{{o.value}}" ng-checked="o.checked"> {{o.display}}
+		</label>
+	</div>
+</div>

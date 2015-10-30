@@ -1,0 +1,16 @@
+{
+	"name":"FormPostName",
+	"label":"Label",
+	"options": [
+		{
+			"display":"Display Title Here",
+			"value":"Value To Return", -- Value returned when checked
+			"checked":true   -- initial checked state
+		},
+		{
+			"display":"Display Title Here",
+			"value":"Value To Return", -- Value returned when checked
+			"checked":false   -- initial checked state
+		}
+	]
+}
