@@ -1,7 +1,7 @@
 
-var paneMod = angular.module('panel', []);
+angular.module('panel', [])
 
-paneMod.directive('panel', function(){
+.directive('panel', function(){
 	return {
 		restrict: 'E',
 		transclude: true,
@@ -14,8 +14,6 @@ paneMod.directive('panel', function(){
 			if(!scope.color){
 				scope.color = 'panel-default';
 			}
-			
-			console.log(scope);
 		}
 	};
-});
+})

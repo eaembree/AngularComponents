@@ -1,6 +1,6 @@
 <div class="form-group">
-	<label>{{data.display}}</label>
-	<select class="form-control" name="data.name" ng-required="data.required" ng-model="data.selected">
+	<label class="control-label">{{data.display}}</label>
+	<select class="form-control" name="{{data.name}}" ng-required="data.required" ng-model="data.selected">
 		<option ng-repeat="o in data.options" value="{{o.value}}">{{o.text}}</option>
 	</select>
 </div>
