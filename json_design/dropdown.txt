@@ -6,7 +6,7 @@
 	"options":[
 		{
 			"value":"Value",    -- Blank for the default option
-			"text":"Text"
+			"display":"Text"
 		}
 	]
 }

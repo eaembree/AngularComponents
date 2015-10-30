@@ -2,7 +2,7 @@
 	<label class="control-label">{{data.label}}</label>
 	<div class="radio" ng-repeat="o in data.options">
 		<label>
-			<input type="radio" name="{{data.name}}"" value="{{o.value}}" ng-checked="o.checked"> {{o.display}}
+			<input type="radio" name="{{data.name}}"" value="{{o.value}}" ng-checked="o.checked" ng-required="data.required"> {{o.display}}
 		</label>
 	</div>
 </div>

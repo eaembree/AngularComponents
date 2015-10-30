@@ -1,6 +1,7 @@
 {
 	"name":"FormPostName",
 	"label":"Label",
+	"required":true,
 	"options": [
 		{
 			"display":"Display Title Here",
