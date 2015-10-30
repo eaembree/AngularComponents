@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="js/angular_services/recipes.js"></script>
+	<script src="js/angular_components/panel.js"></script>
+	<script src="js/angular_components/im-form-components.js"></script>
+	<script src="js/app.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+<div ng-app="myApp">
+	<div class="container">
+		
+		<div ng-controller="imFormCtrl">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+						<h1>Internal Medicine</h1>
+						<h1>Dynamic Form Elements Examples</h1>
+					</div>
+				</div>
+			</div>
+		
+			<form action="testAction">
+				<panel header="Dropdown example" color="panel-primary">
+					<im-dropdown data="dropdata"></im-dropdown>
+				</panel>
+			</form>
+		</div>
+		
+	</div>
+</div>
+</body>
+
+</html> 
